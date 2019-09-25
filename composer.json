@@ -20,6 +20,11 @@
         "source": "https://github.com/flarum/flarum",
         "docs": "https://flarum.org/docs/"
     },
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    },
     "require": {
         "flarum/core": "^0.1.0",
         "flarum/approval": "^0.1.0",
